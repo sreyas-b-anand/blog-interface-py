@@ -19,3 +19,9 @@ Tech Stack
  - Dependencies:
     - sqlite3 for database operations.
     - Python's built-in libraries for creating the CLI interface.
+
+Installation
+  - Clone the repository:
+     - git clone https://github.com/sreyas-b-anand/blog-interface-py.git
+  - Install the required Python modules:
+     - pip install -r requirements.txt
