@@ -11,6 +11,8 @@ Features
  - Create a new blog post
  - Edit existing blog posts (only the author)
  - Delete blog posts (only the author)
+
+
 Tech Stack
  - Backend: Python, SQLite for database management.
  - Frontend: CLI-based interface.
