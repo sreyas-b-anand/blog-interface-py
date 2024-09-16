@@ -30,4 +30,4 @@ htmlcov/
 
 # dotenv environment variables
 .env
-requirements.txt
+
