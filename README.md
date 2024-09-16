@@ -25,3 +25,16 @@ Installation
      - git clone https://github.com/sreyas-b-anand/blog-interface-py.git
   - Install the required Python modules:
      - pip install -r requirements.txt
+  - Create the SQLite database:
+     - The required tables will be automatically created when you first run the application.
+
+Usage
+=
+ - Run the application:
+   - python main.py
+ -  Register:
+   - New users can register with a username and password.
+ -  Login:
+   - Existing users can log in using their credentials.
+ - Blog Management:
+   - After logging in, users can create a new blog, view a blog, edit an existing blog, or delete a blog.
