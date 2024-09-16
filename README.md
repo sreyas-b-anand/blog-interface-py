@@ -27,6 +27,7 @@ Installation
 =
   - Clone the repository:
      - git clone https://github.com/sreyas-b-anand/blog-interface-py.git
+     - cd blog-interface-py
   - Install the required Python modules:
      - pip install -r requirements.txt
   - Create the SQLite database:
