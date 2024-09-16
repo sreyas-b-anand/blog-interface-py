@@ -42,3 +42,12 @@ Usage
      - Existing users can log in using their credentials.
  - Blog Management:
      - After logging in, users can create a new blog, view a blog, edit an existing blog, or delete a blog.
+  
+
+Application Flow
+=
+ - Authentication:
+   * Users must either register or log in to access blog operations.
+   * Username and password are stored in the database after registration.
+Main Menu:
+   * The main menu provides options to view all blogs, view a specific blog by ID, create a new blog, update or delete a blog, or log out.
