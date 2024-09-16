@@ -6,11 +6,11 @@ Features
  - Register a new user
  - Login with an existing user
  - Blog Management:
- - View all blog posts
- - View details of individual blog posts
- - Create a new blog post
- - Edit existing blog posts (only the author)
- - Delete blog posts (only the author)
+    - View all blog posts
+    - View details of individual blog posts
+    - Create a new blog post
+    - Edit existing blog posts (only the author)
+    - Delete blog posts (only the author)
 
 
 Tech Stack
