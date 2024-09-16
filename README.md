@@ -17,5 +17,5 @@ Tech Stack
  - Backend: Python, SQLite for database management.
  - Frontend: CLI-based interface.
  - Dependencies:
- - sqlite3 for database operations.
- - Python's built-in libraries for creating the CLI interface.
+    - sqlite3 for database operations.
+    - Python's built-in libraries for creating the CLI interface.
