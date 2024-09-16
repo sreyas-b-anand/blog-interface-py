@@ -1,7 +1,9 @@
 Blogo - Blog Interface
+=
 Welcome to Blogo, a simple blog interface that allows users to create, view, edit, and delete blog posts. It includes basic user authentication, ensuring only the author can edit or delete their blogs.
 
 Features
+=
  - User Authentication:
  - Register a new user
  - Login with an existing user
@@ -14,6 +16,7 @@ Features
 
 
 Tech Stack
+=
  - Backend: Python, SQLite for database management.
  - Frontend: CLI-based interface.
  - Dependencies:
@@ -21,6 +24,7 @@ Tech Stack
     - Python's built-in libraries for creating the CLI interface.
 
 Installation
+=
   - Clone the repository:
      - git clone https://github.com/sreyas-b-anand/blog-interface-py.git
   - Install the required Python modules:
