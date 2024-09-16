@@ -81,8 +81,8 @@ def editBlog(username , id):
    print(f'Content = {blog[1]}')
    print(f'Date = {blog[2]}')
    print("************")
-   newTitle = input("Enter new title(Press ENTER to keep the previous title) : ")#entering new data
-   newContent = input("Enter new content(Press ENTER to keep the previous content) : ")
+   newTitle = input("Enter new title (Press ENTER to keep the previous title) : ")#entering new data
+   newContent = input("Enter new content (Press ENTER to keep the previous content) : ")
    dateNow = datetime.date.today()
    date = dateNow.strftime("%d-%m-%Y")
    title = newTitle if newTitle.strip() else blog[0]

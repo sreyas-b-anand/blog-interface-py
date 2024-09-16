@@ -14,7 +14,7 @@ c.createTable()
 def mainMenu():
     print("\n")
     print("All Blogs")
-    print("**********************")
+    print("**********************\n")
     blogs = b.fetchData()  # Fetch all blogs
     if blogs:
         b.displayData(blogs)                      # Display the blog title , date , author and ID
@@ -26,7 +26,7 @@ def mainMenu():
     print("3. Update a blog")
     print("4. Delete a blog")
     print("5. Logout")
-    print("**********************\n")
+    print("\n**********************\n")
 
 #blog operations
 def blogFunctions():
@@ -39,11 +39,11 @@ def blogFunctions():
             blogId = input("\nEnter the blog ID to view : ").strip()
             blog = b.fetchOne(blogId)  # Fetch a specific blog by ID
             if blog:
-                print("*******************")
+                print("*******************\n")
                 print(f"\nTitle: {blog[0]}")
                 print(f"Date: {blog[2]}  |  Author : {blog[3]}")
                 print(f"Content: {blog[1]}")
-                print("*******************")
+                print("\n*******************")
             else:
                 print(f"No blog found with ID {blogId}.")
 
