@@ -1,3 +1,6 @@
+#Welcome to Blogo, a simple blog interface that allows users to create, view, edit, and delete blog posts. 
+#It includes basic user authentication, ensuring only the author can edit or delete their blogs.
+
 from auth.user import user 
 from operations.blogOperations import blogOperations as b
 from operations.dbOperations import createTable as c 
