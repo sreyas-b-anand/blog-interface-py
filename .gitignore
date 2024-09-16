@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+.venv/
+ENV/
+
+# Log files
+*.log
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE-specific files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# dotenv environment variables
+.env
+requirements.txt
