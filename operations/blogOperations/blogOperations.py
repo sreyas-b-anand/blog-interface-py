@@ -102,10 +102,7 @@ def deleteBlog(username , id):
    blog = cur.fetchone()
    cur.execute('SELECT author FROM blogs WHERE id = ?' , (id,))
    response = cur.fetchone()
-
    author = response[0]
-
-
    if blog:
         author = response[0]
 

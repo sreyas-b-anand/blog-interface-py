@@ -1,5 +1,6 @@
 import sqlite3
 
+
 def createTable():
     conn = sqlite3.connect('operations/dbBlog/dbBlog.db')
     cursor = conn.cursor()
