@@ -31,10 +31,10 @@ Installation
 Usage
 =
  - Run the application:
-   - python main.py
+     - python main.py
  -  Register:
-   - New users can register with a username and password.
+     - New users can register with a username and password.
  -  Login:
-   - Existing users can log in using their credentials.
+     - Existing users can log in using their credentials.
  - Blog Management:
-   - After logging in, users can create a new blog, view a blog, edit an existing blog, or delete a blog.
+     - After logging in, users can create a new blog, view a blog, edit an existing blog, or delete a blog.
