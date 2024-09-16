@@ -49,5 +49,9 @@ Application Flow
  - Authentication:
    * Users must either register or log in to access blog operations.
    * Username and password are stored in the database after registration.
-Main Menu:
+ - Main Menu:
    * The main menu provides options to view all blogs, view a specific blog by ID, create a new blog, update or delete a blog, or log out.
+  
+ License
+ =
+  - This project is licensed under the MIT License. See the LICENSE file for details
